@@ -331,7 +331,7 @@ class _DetailsPageState extends State<DetailsPage> {
           // Air Quality Box
             Container(
               margin: EdgeInsets.only(left: 45.0,right: 40.0,),
-              height: 160,
+              height: 180,
               width: 325,
               decoration: BoxDecoration(
                 gradient: LinearGradient(

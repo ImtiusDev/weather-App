@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weather_app/screen/details.dart';
+import 'package:weather_app/screen/home.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -17,9 +17,7 @@ class MyApp extends StatelessWidget {
         fontFamily : 'Poppins',
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      // // home: HomePage(title: 'Flutter Demo Home Page'),
-      // home: HomePage(),
-      home: DetailsPage(),
+      home: HomePage(),
     );
   }
 }
